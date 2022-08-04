@@ -6,4 +6,4 @@ AZP_POOL=$(bashio::config 'pool')
 AZP_URL=$(bashio::config 'organization')
 AZP_TOKEN=$(bashio::config 'token')
 
-start.sh
+/start.sh
