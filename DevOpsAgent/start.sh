@@ -1,10 +1,5 @@
-#!/usr/bin/with-contenv bashio
+#!/bin/bash
 set -e
-
-AZP_AGENT_NAME=$(bashio::config 'agentname')
-AZP_POOL=$(bashio::config 'pool')
-AZP_URL=$(bashio::config 'organization')
-AZP_TOKEN=$(bashio::config 'token')
 
 if [ -z "$AZP_URL" ]; then
   echo 1>&2 "error: missing AZP_URL environment variable"

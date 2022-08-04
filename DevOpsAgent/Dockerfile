@@ -2,7 +2,8 @@ ARG BUILD_FROM
 FROM $BUILD_FROM
 
 # Copy data for add-on
-COPY start.sh /
-RUN chmod a+x /start.sh
+COPY run.sh start.sh /
+RUN chmod a+x /run.sh \
+  && chmod a+x /start.sh
 
-CMD [ "/start.sh" ]
+CMD [ "/run.sh" ]
