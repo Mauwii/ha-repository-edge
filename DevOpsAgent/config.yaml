@@ -10,12 +10,12 @@ arch:
   - armv7
   - i386
 options:
-  AZP_AGENT_NAME: "HomeAssistant"
-  AZP_POOL: "Default"
-  AZP_URL: "https://dev.azure.com/<yourOrg>"
-  AZP_TOKEN: "Your Access Token"
+  agentname: "HomeAssistant"
+  pool: "Default"
+  organization: "https://dev.azure.com/<yourOrg>"
+  token: "Your Access Token"
 schema:
-  AZP_AGENT_NAME: str
-  AZP_POOL: str
-  AZP_URL: url
-  AZP_TOKEN: str
+  agentname: str
+  pool: str
+  organization: url
+  token: str
