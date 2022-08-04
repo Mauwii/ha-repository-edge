@@ -6,4 +6,6 @@ export AZP_POOL=$(bashio::config 'pool')
 export AZP_URL=$(bashio::config 'organization')
 export AZP_TOKEN=$(bashio::config 'token')
 
-/start.sh
+# Start DevOps-Agent
+bashio::log.info "Starting DevOps-Agent..."
+exec start.sh
