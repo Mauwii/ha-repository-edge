@@ -8,4 +8,4 @@ export AZP_TOKEN=$(bashio::config 'token')
 
 # Start DevOps-Agent
 bashio::log.info "Starting DevOps-Agent..."
-exec start.sh
+exec ./start.sh
