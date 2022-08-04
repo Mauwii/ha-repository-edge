@@ -4,7 +4,6 @@ FROM $BUILD_FROM
 RUN apk add \
   ca-certificates \
   iputils \
-  lsb-release-minimal \
   jq \
   openssl
 
