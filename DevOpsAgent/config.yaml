@@ -5,15 +5,11 @@ slug: "devops_agent"
 init: false
 arch:
   - aarch64
-  - !amd64
-  - !armhf
-  - !armv7
-  - !i386
 options:
   agentname: "HomeAssistant"
   pool: "Default"
   organization: "https://dev.azure.com/<yourOrg>"
-  token: "Your Access Token"
+  token: "<YourAccessToken>"
 schema:
   agentname: str
   pool: str
