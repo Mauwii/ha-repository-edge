@@ -1,0 +1,23 @@
+---
+version: dev
+slug: devops-agent
+name: DevOps Agent
+description: Host your own Azure-DevOps Agent
+image: ghcr.io/mauwii/devops-agent/{arch}
+url: https://github.com/Mauwii/HA-DevOps-Agent
+codenotary: mauwii@outlook.de
+init: false
+arch:
+  - aarch64
+map:
+  - config:rw
+options:
+  agentname: "HomeAssistant"
+  pool: "Default"
+  organization: "https://dev.azure.com/<your organization>"
+  token: "<your personal access token>"
+schema:
+  agentname: str
+  pool: str
+  organization: url
+  token: password

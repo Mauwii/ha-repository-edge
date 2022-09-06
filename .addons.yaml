@@ -1,0 +1,7 @@
+---
+channel: dev
+addons:
+  devops-agent:
+    repository: Mauwii/HA-DevOps-Agent
+    target: devops-agent
+    image: ghcr.io/mauwii/devops-agent/{arch}
