@@ -1,5 +1,5 @@
 ---
-version: dev
+version: 6f541d9
 slug: devops-agent
 name: DevOps Agent
 description: Host your own Azure-DevOps Agent
