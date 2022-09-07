@@ -18,5 +18,5 @@ schema:
   pool: str
   token: password
 slug: devops-agent
-url: https://github.com/Mauwii/HA-DevOps-Agent
+url: https://github.com/mauwii/HA-DevOps-Agent
 version: 3720e0a
