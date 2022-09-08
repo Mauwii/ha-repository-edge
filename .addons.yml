@@ -1,7 +1,7 @@
 ---
 channel: edge
 addons:
-  devops-agent:
+  ha-devops-agent:
     repository: mauwii/ha-devops-agent
     target: ha-devops-agent
     image: ghcr.io/mauwii/ha-devops-agent/{arch}
