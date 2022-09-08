@@ -1,1 +1,1 @@
-- update release-drafter.yaml
+- update labels in Dockerfile
