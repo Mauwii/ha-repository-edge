@@ -10,7 +10,7 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [HA-DevOpsAgent](./DevOpsAgent/)
+### [DevOps-Agent](./ha-devops-agent/)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Does not Support amd64 Architecture][amd64-no-shield]
@@ -18,7 +18,7 @@ This repository contains the following add-ons
 ![Does not Support armv7 Architecture][armv7-no-shield]
 ![Does not Support i386 Architecture][i386-no-shield]
 
-_Azure DevOps-Agent - still under heavy development and not working yet._
+_Azure DevOps-Agent - still under heavy development._
 
 <!--
 
