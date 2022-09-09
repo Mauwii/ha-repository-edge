@@ -74,10 +74,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-ha-devops-agent]: https://github.com/mauwii/ha-devops-agent/tree/a9d8bb7
-[addon-doc-ha-devops-agent]: https://github.com/mauwii/ha-devops-agent/blob/a9d8bb7/README.md
+[addon-ha-devops-agent]: https://github.com/mauwii/ha-devops-agent/tree/5c42f15
+[addon-doc-ha-devops-agent]: https://github.com/mauwii/ha-devops-agent/blob/5c42f15/README.md
 [ha-devops-agent-issue]: https://github.com/mauwii/ha-devops-agent/issues
-[ha-devops-agent-version-shield]: https://img.shields.io/badge/version-a9d8bb7-blue.svg
+[ha-devops-agent-version-shield]: https://img.shields.io/badge/version-5c42f15-blue.svg
 [ha-devops-agent-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ha-devops-agent-amd64-shield]: https://img.shields.io/badge/amd64-no-red.svg
 [ha-devops-agent-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

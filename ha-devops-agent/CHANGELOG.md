@@ -1,1 +1,1 @@
-- update image vendor in dockerfile
+- update deploy.yaml

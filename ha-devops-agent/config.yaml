@@ -19,4 +19,4 @@ schema:
   token: password
 slug: ha-devops-agent
 url: https://github.com/mauwii/ha-devops-agent
-version: a9d8bb7
+version: 5c42f15
