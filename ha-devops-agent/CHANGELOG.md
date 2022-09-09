@@ -1,1 +1,1 @@
-- update labels in Dockerfile
+- update image vendor in dockerfile
