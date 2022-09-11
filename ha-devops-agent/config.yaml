@@ -9,14 +9,20 @@ map:
 name: DevOps-Agent
 options:
   agentname: HomeAssistant
+  init_commands: []
+  install_packages: []
   organization: https://dev.azure.com/<your organization>
   pool: Default
   token: <your personal access token>
 schema:
   agentname: str
+  init_commands:
+  - str
+  install_packages:
+  - str
   organization: url
   pool: str
   token: password
 slug: ha-devops-agent
 url: https://github.com/mauwii/ha-devops-agent
-version: 5c42f15
+version: 98f35fe
