@@ -1,3 +1,3 @@
-- Merge pull request #10 from mauwii/dependabot/github_actions/docker/setup-buildx-action-2.2.0
+- Merge pull request #13 from mauwii/dependabot/github_actions/peter-evans/repository-dispatch-2.1.0
 
-Bump docker/setup-buildx-action from 2.1.0 to 2.2.0
+Bump peter-evans/repository-dispatch from 2.0.0 to 2.1.0
